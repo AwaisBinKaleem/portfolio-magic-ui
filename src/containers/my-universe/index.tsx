@@ -11,17 +11,15 @@ import { motion } from "framer-motion"
 import { memo, useEffect, useState } from "react"
 
 const texts = [
-  "Front-End Developer",
-  "UI/UX Enthusiast",
+  "Sr.Software Engineer",
   "JavaScript Developer",
+  "Backend Developer",
+  "Frontend Developer",
+  "Node.js Developer",
   "React.js Developer",
   "Next.js Developer",
-  "UI/UX Designer",
-  "Graphic Designer",
-  "Animation Developer",
-  "Motion Developer",
-  "Smooth Transition",
-  "WebGL Developer",
+  "React Native Developer",
+  "Web3.JS Developer"
 ]
 
 const animationTypes: AnimationVariant[] = [
@@ -142,7 +140,7 @@ export function CompareDemo() {
 export const Title = memo(() => {
   return (
     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight sm:my-6 dark:text-zinc-300 text-zinc-700">
-      I&apos;m <Cover>Kinh Bach</Cover>
+      I&apos;m <Cover>Awais Kaleem</Cover>
     </h1>
   )
 })
